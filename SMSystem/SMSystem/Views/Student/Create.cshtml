@@ -17,6 +17,7 @@
         <div class="mb-3">
             <label asp-for="Gender"></label>
             <select asp-for="Gender" class="form-control"> 
+                <option value="Select">Select Gender</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
                 <option value="Others">Other</option>
@@ -25,7 +26,7 @@
         </div>
         <div class="mb-3">
             <label asp-for="Email"></label>
-            <input asp-for="Email" class="form-control" />
+            <input asp-for="Email" type="email" class="form-control" />
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
         <div class="mb-3">

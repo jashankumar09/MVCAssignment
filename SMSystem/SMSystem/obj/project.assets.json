@@ -9467,11 +9467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\SMSystem\\SMSystem\\SMSystem.csproj",
+      "projectUniqueName": "C:\\MVCAssignment\\SMSystem\\SMSystem\\SMSystem.csproj",
       "projectName": "SMSystem",
-      "projectPath": "C:\\Users\\Dell\\source\\repos\\SMSystem\\SMSystem\\SMSystem.csproj",
+      "projectPath": "C:\\MVCAssignment\\SMSystem\\SMSystem\\SMSystem.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\source\\repos\\SMSystem\\SMSystem\\obj\\",
+      "outputPath": "C:\\MVCAssignment\\SMSystem\\SMSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

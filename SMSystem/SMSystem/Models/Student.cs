@@ -17,10 +17,16 @@ namespace SMSystem.Models
         public string? Gender { get; set; }
 
         [Required]
+    
+        [EmailAddress]
+        [RegularExpression(@"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}", ErrorMessage = "Incorrect Email Format")]
 
         public string Email { get; set; }
 
         [Required]
+
+        [MinLength(10, ErrorMessage = "Phone Number must be of 10 digit")]
+        [MaxLength(10, ErrorMessage = "Phone Number must be of 10 digit")]
         public string PhoneNo { get; set; }
 
         [Required]

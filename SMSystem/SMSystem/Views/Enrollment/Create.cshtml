@@ -4,9 +4,8 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
 
-<h4>Enrollment</h4>
+<h4>Create Enrollment</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -20,16 +19,17 @@
                 <label asp-for="StudentId" class="control-label"></label>
                 <select asp-for="StudentId" class ="form-control" asp-items="ViewBag.StudentID"></select>
             </div>
+            <br>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-controller="Enrollment" asp-action="Index"  class="btn btn-primary">Back</a>
+
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
